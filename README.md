@@ -28,15 +28,7 @@ Sample request :
 
 ```json
 {
-    "data": {
-        "status": 1,
-        "message": "User cannot have more than 3 video streams",
-        "data": {
-            "id": 2,
-            "username": "kabiru",
-            "streams": 3
-        }
-    }
+    "username": "kabiru"
 }
 ```
 
