@@ -112,7 +112,7 @@ const checkUserStream = async (req, res) => {
           data: update_user_stream_res,
         },
       });
-    }else {
+    } else {
       res.status(400).json({
         data: {
           status: 0,
