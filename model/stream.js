@@ -19,7 +19,7 @@ Stream.init(
   {
     sequelize,
     modelName: "stream",
-    timestamps: true,
+    timestamps: false,
   }
 );
 
