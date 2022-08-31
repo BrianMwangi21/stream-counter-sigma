@@ -109,7 +109,7 @@ const checkUserStream = async (req, res) => {
     } else {
       return res.status(400).json({
         data: {
-          status: 0,
+          status: 1,
           message: "User cannot have more than 3 video streams",
           data: JSON.parse(get_res),
         },
