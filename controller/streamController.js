@@ -61,7 +61,7 @@ const checkUserStream = async (req, res) => {
   if (!req.body.username) {
     res
       .status(400)
-      .json({ data: { status: 1, message: "Username is required" } });
+      .json({ data: { status: 1, message: "Username is required", data: {} } });
   }
 
   const username = req.body.username;

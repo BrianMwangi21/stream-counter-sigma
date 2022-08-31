@@ -2,7 +2,7 @@
   "name": "stream-counter-sigma",
   "version": "1.0.0",
   "description": "Simple API service for Sigma Digital Challenge",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
